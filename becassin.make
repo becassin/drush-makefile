@@ -72,20 +72,9 @@ projects[devel_themer][type] = "module"
 projects[simplehtmldom][version] = 2.1
 projects[simplehtmldom][type] = "module"
 
-  
-
 ; Themes
 ; --------
 projects[] = boilerplate
-
-  
-  
-; Libraries
-; ---------
-libraries[html5bp][download][type] = "file"
-libraries[html5bp][download][url] = "http://github.com/h5bp/html5-boilerplate/zipball/v3.0.2stripped"
-libraries[jquery][download][type] = "file"
-libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
 
 ; Profile
 projects[becassin][type] = "profile"
