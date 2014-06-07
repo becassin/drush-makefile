@@ -67,10 +67,10 @@ projects[xmlsitemap][version] = 2.0
 projects[xmlsitemap][type] = "module"
 projects[devel][version] = 1.5
 projects[devel][type] = "module"
-projects[devel_themer][version] = 1.x-dev
-projects[devel_themer][type] = "module"
 projects[simplehtmldom][version] = 2.1
 projects[simplehtmldom][type] = "module"
+projects[devel_themer][version] = 1.x-dev
+projects[devel_themer][type] = "module"
 
 ; Themes
 ; --------
