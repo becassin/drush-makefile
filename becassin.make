@@ -65,7 +65,7 @@ projects[views][version] = 3.8
 projects[views][type] = "module"
 projects[xmlsitemap][version] = 2.0
 projects[xmlsitemap][type] = "module"
-projects[devel][version] = 1.x-dev
+projects[devel][version] = 1.5
 projects[devel][type] = "module"
 projects[devel_themer][version] = 1.x-dev
 projects[devel_themer][type] = "module"
@@ -77,6 +77,7 @@ projects[simplehtmldom][type] = "module"
 projects[] = boilerplate
 
 ; Profile
+; --------
 projects[becassin][type] = "profile"
 projects[becassin][download][type] = "git"
 projects[becassin][download][destination] = "profiles"
