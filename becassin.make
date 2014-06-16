@@ -67,19 +67,25 @@ projects[xmlsitemap][version] = 2.0
 projects[xmlsitemap][type] = "module"
 projects[devel][version] = 1.5
 projects[devel][type] = "module"
-projects[simplehtmldom][version] = 2.1
+projects[simplehtmldom][version] = 1.12
 projects[simplehtmldom][type] = "module"
 projects[devel_themer][version] = 1.x-dev
 projects[devel_themer][type] = "module"
+projects[becassin_module][type] = "module"
+projects[becassin_module][download][type] = "git"
+projects[becassin_module][download][url] = "git://github.com/becassin/drupal_module.git"
 
 ; Themes
 ; --------
 projects[] = boilerplate
+projects[becassin_theme][type] = "theme"
+projects[becassin_theme][download][type] = "git"
+projects[becassin_theme][download][url] = "git://github.com/becassin/drupal_theme.git"
 
 ; Profile
 ; --------
-projects[becassin][type] = "profile"
-projects[becassin][download][type] = "git"
-projects[becassin][download][destination] = "profiles"
-projects[becassin][download][url]= "git://github.com/becassin/drupal_profile"
+projects[becassin_profile][type] = "profile"
+projects[becassin_profile][download][type] = "git"
+projects[becassin_profile][download][destination] = "profiles"
+projects[becassin_profile][download][url]= "git://github.com/becassin/drupal_profile"
 
