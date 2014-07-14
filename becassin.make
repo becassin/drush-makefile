@@ -27,7 +27,9 @@ api = 2
 ; install profiles *should not* include a core project.
   
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
-projects[drupal][version] = 7.x
+; projects[drupal][version] = 7.x
+; For the last stable release
+projects[drupal][version] = 7
 
   
   
@@ -71,6 +73,8 @@ projects[simplehtmldom][version] = 1.12
 projects[simplehtmldom][type] = "module"
 projects[devel_themer][version] = 1.x-dev
 projects[devel_themer][type] = "module"
+projects[bueditor][version] = 1.x
+projects[bueditor][type] = "module"
 projects[becassin_module][type] = "module"
 projects[becassin_module][download][type] = "git"
 projects[becassin_module][download][url] = "git://github.com/becassin/drupal_module.git"
@@ -78,6 +82,7 @@ projects[becassin_module][download][url] = "git://github.com/becassin/drupal_mod
 ; Themes
 ; --------
 projects[] = boilerplate
+projects[] = bootstrap
 projects[becassin_theme][type] = "theme"
 projects[becassin_theme][download][type] = "git"
 projects[becassin_theme][download][url] = "git://github.com/becassin/drupal_theme.git"
